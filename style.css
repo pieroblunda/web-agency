@@ -13,6 +13,8 @@ body {
 
 body .hero {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 90%, #fff 100%), url("public/media/hero-background.svg");
+  background-size: cover;
+  background-position: bottom;
   color: #000 !important;
   min-height:60vh
 }
@@ -505,7 +507,7 @@ table.green {
 
 .d-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row dense;
   max-width: 900px;
   margin:0 auto
@@ -741,5 +743,9 @@ button, a, video, [ng-click] {
 
   section {
     padding: 3rem
+  }
+
+  .d-grid {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
