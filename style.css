@@ -491,6 +491,23 @@ table.green {
   color:#fff
 }
 
+span.problem {
+  background-color: rgba(252, 168, 168, 0.57);
+  padding: 2px 4px;
+  border: 1px solid rgba(167, 38, 38, 1);
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.2rem;
+}
+span.solution {
+  background-color: rgba(21, 170, 191, 0.22);
+  padding: 2px 4px;
+  border: 1px solid #0c8599;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.2rem;
+}
+
 .inverted h1, .inverted h2, .inverted h3, .inverted p {
   color:#fff
 }
