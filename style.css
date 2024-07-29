@@ -55,16 +55,25 @@ body .neck p {
   margin:0 auto 16px auto
 }
 
-body .neck .arrow-bottleneck {
-  width: 40px;
+.arrow-1 {
+  width: 40px!important;
   top: 50%;
   left: 20px;
   position: absolute;
   transform: scaleX(-1);
+  opacity:.2
+}
+
+.arrow-2 {
+  width: 60px!important;
+  top: 60%;
+  left: -20px;
+  position: absolute;
+  opacity:.2
 }
 
 @media screen and (min-width: 768px) {
-  body .neck .arrow-bottleneck {
+  .arrow-1 {
     width: 50px;
     transform: rotate(-98deg);
     top: 0;left: calc(100% - 25px);
@@ -372,7 +381,8 @@ body footer {
 }
 
 section {
-  padding:1rem
+  padding:1rem;
+  margin: 3rem 0;
 }
 
 h1 {
@@ -385,29 +395,29 @@ h1 {
 h2 {
   font-size: 2.5rem;
   line-height: 3rem;
-  margin-bottom: .75rem;
+  margin-bottom: 1rem;
   font-weight: 300;
   color:#4f46e4
 }
 
 h3 {
-  font-size: 2.2rem;
-  line-height: 2.2rem;
-  color: #4f46e4;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  color: #1a157e;
   font-weight: 300;
   margin-bottom:.4rem
 }
 
-h3 small {
-  display: block;
-  color: #24292e;
-  font-size: 14px;
-  text-transform: uppercase;
-  line-height: 14px;
-  font-weight:600
+span.tag {
+  background-color: #1a157e;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 80%;
+  line-height: 28px;
 }
 
-p {
+p:not(:last-child) {
   line-height: 1.4rem;
   margin-bottom: 1.4rem
 }
@@ -572,6 +582,7 @@ span.solution {
 .d-flex {
   display: flex;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -589,22 +600,8 @@ span.solution {
 }
 
 .row {
-  width:100%
-}
-
-@media screen and (min-width: 768px) {
-  .row.gutted .col {
-    margin-left: 16px;
-    margin-right:16px
-  }
-
-  .row.gutted .col:first-child {
-    margin-left:0
-  }
-
-  .row.gutted .col:last-child {
-    margin-right:0
-  }
+  width:100%;
+  margin-bottom: 16px;
 }
 
 .col {
@@ -675,7 +672,8 @@ span.solution {
 }
 
 .img-fluid {
-  width:100%
+  width:100%;
+
 }
 
 .no-margin {
@@ -740,6 +738,24 @@ button, a, video, [ng-click] {
   cursor:pointer
 }
 
+.img-w-200 {
+  max-width: 200px;
+  width: 100%;
+}
+
+.col-thin-mobile-only {
+  flex: 0 1 33%;
+}
+
+.col-wide-auto {
+  flex: 1;
+}
+
+.on-left {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 @media screen and (max-width: 767px) {
   .desktop-only {
     display:none
@@ -756,6 +772,36 @@ button, a, video, [ng-click] {
 }
 
 @media screen and (min-width: 768px) {
+
+  .mobile-only {
+    display: none;
+  }
+
+  .col-thin-mobile-only {
+    flex: 0 1 50%;
+  }
+
+  .bg-1-dektop-only {
+    background: url("public/media/puzzle-left.svg");
+    background-position: calc(50% -  50px);
+    background-size: 275px;
+    background-repeat: no-repeat;
+  }
+
+  .bg-2-dektop-only {
+    background: url("public/media/automation-desktop-only.svg");
+    background-position: left bottom;
+    background-size: 275px;
+    background-repeat: no-repeat;
+  }
+
+  .bg-3-dektop-only {
+    background: url("public/media/happy-people-desktop-only.svg");
+    background-position: left bottom;
+    background-size: 275px;
+    background-repeat: no-repeat;
+  }
+
   .col {
     flex:1 1
   }
