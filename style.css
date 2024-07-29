@@ -62,6 +62,10 @@ body .integrations {
   background-position:center center
 }
 
+body .integrations span {
+  text-align: center;
+}
+
 body .how-helps-you {
   padding-top: 0;
   padding-bottom:0
