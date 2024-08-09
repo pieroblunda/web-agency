@@ -1,16 +1,13 @@
 # ToDO
 
-5. "Affinché le modifiche siano pubbliche, devi indirizzare il tuo dominio ai nostri server." Troppo tecnico
-
 6. No tiene costo
 
-7. Pocas preguntas en FAQ
-
-8. Per ogni modifica ti devo chiamare?
-
-9. Chi lavora le modifiche? Io o te ?
-
 12. El cliente gana en velocidad pero pierde en autonomia
+
+
+
+
+
 
 13. Mejoras significativas: publicar el "blog-panel" para que los clientes se hagan su proprias modificaciones
 
