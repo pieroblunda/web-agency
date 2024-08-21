@@ -1,0 +1,1 @@
+.block-breadcrumb .breadcrumb li:not(:last-child):after{margin-left:4px;content:"/"}.block-breadcrumb .breadcrumb a{text-transform:uppercase}
