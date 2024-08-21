@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1620 920" width="4860" height="2760">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "Assistant";
+        src: url("https://excalidraw.com/Assistant-Regular.woff2");
+      }
+    </style>
+    
+  </defs>
+  <g stroke-linecap="round" transform="translate(10 10) rotate(0 800 450)"><path d="M32 0 C364.8 -7.04, 697.95 -7.21, 1568 0 C1586.53 -3.26, 1600.12 11.83, 1600 32 C1600.09 289.67, 1599.27 545.47, 1600 868 C1600.27 890.82, 1590.61 896.69, 1568 900 C986.47 909.64, 403.53 908.59, 32 900 C13.45 897.74, -1.29 886.41, 0 868 C3.43 587.12, 3.96 302.79, 0 32 C2.04 12.31, 9.88 -1.09, 32 0" stroke="none" stroke-width="0" fill="#e7f5ff"></path><path d="M32 0 C456.92 -1.7, 880.54 -1.92, 1568 0 M32 0 C550.02 1.32, 1068.31 1.86, 1568 0 M1568 0 C1589.78 -0.29, 1598.67 11.25, 1600 32 M1568 0 C1588.73 -0.6, 1601.55 12.83, 1600 32 M1600 32 C1601.41 258.17, 1601.04 482.42, 1600 868 M1600 32 C1602.71 293.98, 1603.07 555.86, 1600 868 M1600 868 C1601.02 888.62, 1590.76 899.5, 1568 900 M1600 868 C1599.3 891.44, 1590.22 902.12, 1568 900 M1568 900 C1093.3 904.54, 620.06 903.76, 32 900 M1568 900 C1164.54 903.57, 760.56 903.7, 32 900 M32 900 C9.63 900.78, 0.37 889.79, 0 868 M32 900 C8.68 900.23, -0.84 887.35, 0 868 M0 868 C-0.12 664.57, -1.23 462.82, 0 32 M0 868 C0.98 539.94, 0.87 211.62, 0 32 M0 32 C1.82 9.36, 8.87 0.74, 32 0 M0 32 C1.26 12.44, 9.78 -1.53, 32 0" stroke="#1971c2" stroke-width="4" fill="none"></path></g><g transform="translate(550.8117948909733 276.12642397559654) rotate(0 259.18820510902674 183.87357602440346)"><text x="0" y="257.7172041558039" font-family="Virgil, Segoe UI Emoji" font-size="294.1977216390456px" fill="#1971c2" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="alphabetic">16:9</text></g></svg>
