@@ -1,4 +1,12 @@
-# ToDO
+## Web Agency
+
+Codigo del sitio pieroblunda.github.io/web-agency/. Hecho en texto plano HTML y CSS. 
+
+## Nota
+
+El sitio quedò obsoleto pero se puede reutilizar algo de codigo
+
+## ToDO
 
 6. No tiene costo
 
